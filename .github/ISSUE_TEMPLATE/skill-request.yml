@@ -1,0 +1,52 @@
+name: Skill request
+description: Suggest a new growth-ops skill you'd like me to build and share.
+title: "[Skill request] <short name>"
+labels: ["skill-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. The more concrete the use case, the more likely I'll build it.
+
+  - type: input
+    id: name
+    attributes:
+      label: Skill name (slug)
+      placeholder: e.g., linkedin-dm-personalizer
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this skill solve?
+      description: In your own words, ideally with an example you're facing right now.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-solution
+    attributes:
+      label: How do you solve this today?
+      placeholder: Manually in a spreadsheet / via tool X / I don't, it's the bottleneck
+    validations:
+      required: false
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: How urgent is this for you?
+      options:
+        - "Would be nice eventually"
+        - "Needed within the next month"
+        - "Blocking me this week"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contact
+    attributes:
+      label: Want me to ping you when it ships?
+      options:
+        - label: Yes, reply on this issue
+        - label: Yes, email me (leave email below)

@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.env
+.env.local
+*.log
+
+# Private working files (not for publication)
+case-studies/private/
+templates/_drafts/

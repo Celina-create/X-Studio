@@ -1,0 +1,43 @@
+name: Collaboration inquiry
+description: Campaign help, skill exchange, or a question about a specific playbook.
+title: "[Collab] <short headline>"
+labels: ["collab"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If it's sensitive, email [suokata@naver.com](mailto:suokata@naver.com) instead.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of collaboration?
+      options:
+        - "Help me run a campaign"
+        - "Exchange skills / notes"
+        - "Feedback on a skill or playbook here"
+        - "General question"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: A few sentences on what you're working on and what you're hoping to get out of this.
+    validations:
+      required: true
+
+  - type: input
+    id: timeline
+    attributes:
+      label: Timeline (if any)
+      placeholder: "e.g., next 2 weeks, flexible, Q3"
+
+  - type: checkboxes
+    id: contact
+    attributes:
+      label: How should I reply?
+      options:
+        - label: Reply on this issue
+        - label: Email me (leave email below)
