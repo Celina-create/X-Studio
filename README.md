@@ -1,24 +1,34 @@
 <h1 align="center">X-Studio</h1>
-<h3 align="center">A solo studio for growth operators.</h3>
+<h3 align="center">A growth-ops lab for the AI agent era.</h3>
 
 <p align="center">
-  <em>Crafted skills, playbooks, and templates for shipping growth with AI agents.</em>
+  <em>Codified systems for shipping growth — auditable by humans, executable by agents.</em>
 </p>
 
 <p align="center">
-  <a href="mailto:suokata@naver.com">Email</a> ·
-  <a href="https://github.com/Celina-create/X-Studio/issues">Say hi</a>
+  <a href="./README.md">English</a> ·
+  <a href="./README.zh.md">中文</a> ·
+  <a href="./README.ko.md">한국어</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
+  <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/playbooks-1-black?style=flat-square" alt="Playbooks">
 </p>
 
 ---
 
-## Hi, I'm Celina
+## The thesis
 
-I'm a growth operator. I build the systems that take products from zero users to first hundred, then first thousand.
+> **Every growth tactic has a half-life.**
 
-The job keeps changing — outreach moves from email to Twitter DM to GitHub issues; content moves from blog to threads to AI-native formats; seed users move from waitlists to competitor poaching. Every time the tactics shift, the craft gets harder and the shortcuts get worse.
+What worked last quarter breaks this quarter. Outreach moved from email to Twitter DM to GitHub issues. Content moved from blog posts to threads to AI-native formats. Seed users moved from waitlists to competitor poaching. Every shift, the surface tactics get easier — and the underlying craft gets harder.
 
-**X-Studio is where I codify the parts that hold up.** Every folder here is something I've actually used in a campaign — with the reasoning written down so an AI agent (or another operator) can run it.
+**X-Studio captures the systems that survive the decay.** Each folder is something tested in a real campaign. Each skill is written so an AI agent can run it without hand-holding, *and* a growth operator can read it before pressing run.
+
+This isn't a course. It isn't a blog. It's a **bench** — the place where the work happens, opened up.
 
 ---
 
@@ -26,67 +36,95 @@ The job keeps changing — outreach moves from email to Twitter DM to GitHub iss
 
 | Folder | What it is |
 |---|---|
-| [`skills/`](./skills) | Atomic, agent-executable skills — drop into Cursor / Claude Code / Codex |
-| [`playbooks/`](./playbooks) | Narrative SOPs — end-to-end how a campaign is run |
-| [`templates/`](./templates) | Copy-paste assets — cold emails, landing pages, forms |
+| [`skills/`](./skills) | Atomic, agent-executable units of growth work — drop into Cursor / Claude Code / Codex |
+| [`playbooks/`](./playbooks) | Narrative SOPs — how multiple skills compose into a real campaign |
+| [`templates/`](./templates) | Copy-paste assets — cold emails, landing pages, issue forms |
 | [`case-studies/`](./case-studies) | Real campaigns — methods, data, what worked, what didn't |
 
 ---
 
-## Featured skills
+## Skills (v0.1 — 8 in use)
 
-| Skill | What it does |
-|---|---|
-| [`stargazer-email-scraper`](./skills/stargazer-email-scraper) | Extract public emails of competitor repos' stargazers — 15–17% hit rate |
-| [`competitive-intel-mining`](./skills/competitive-intel-mining) | Mine competitor communities for high-intent users complaining about real pain |
-| [`seed-user-pool-stratification`](./skills/seed-user-pool-stratification) | Score and segment seed users by ROI before spending a single message |
-| [`personalized-cold-outreach`](./skills/personalized-cold-outreach) | Generate 1-to-1 personalized outreach at batch scale from a seed CSV |
-| [`landing-to-issue-funnel`](./skills/landing-to-issue-funnel) | Turn a cold email into a pre-filled GitHub Issue / form capture loop |
-| [`content-repurpose-engine`](./skills/content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks |
-| [`growth-experiment-template`](./skills/growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule |
-| [`reddit-account-warmup`](./skills/reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks |
+Eight atomic skills currently shipped. Each has been used in a live campaign before being written down.
+
+| # | Skill | What it does |
+|---|---|---|
+| 1 | [`stargazer-email-scraper`](./skills/stargazer-email-scraper) | Extract public emails of competitor-repo stargazers — 15–17% hit rate |
+| 2 | [`competitive-intel-mining`](./skills/competitive-intel-mining) | Mine competitor communities (GitHub / Discord / Reddit) for high-intent users |
+| 3 | [`seed-user-pool-stratification`](./skills/seed-user-pool-stratification) | Score and segment seed users by ROI before spending a single message |
+| 4 | [`personalized-cold-outreach`](./skills/personalized-cold-outreach) | 1-to-1 personalized outreach at batch scale — first three sentences must be true *only* for that recipient |
+| 5 | [`landing-to-issue-funnel`](./skills/landing-to-issue-funnel) | Turn a cold email into a pre-filled GitHub Issue capture loop |
+| 6 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks |
+| 7 | [`growth-experiment-template`](./skills/growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule, retro |
+| 8 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks |
+
+**Roadmap teaser** — `linkedin-content-warmup`, `x-account-warmup`, `discord-community-seeding`, `outbound-followup-sequencer` (each will land when shipped at least once).
 
 ---
 
 ## How to use
 
-### In Cursor / Claude Code
+### As an AI-agent skill set
 
 ```bash
 git clone https://github.com/Celina-create/X-Studio.git ~/x-studio
+
+# Mount everything
 ln -s ~/x-studio/skills ~/.claude/skills/x-studio
-# or a single skill
+
+# Or a single skill
 ln -s ~/x-studio/skills/competitive-intel-mining ~/.cursor/skills/competitive-intel-mining
 ```
 
-Invoke by name in chat: *"Use competitive-intel-mining on this competitor's GitHub issues."*
+Invoke by name in chat:
 
-### As a reference
+> *"Use `competitive-intel-mining` on this competitor's GitHub issues."*  
+> *"Run `reddit-account-warmup` and tell me which week I'm in."*
 
-Nothing here is copy-protected. Steal what's useful. A credit back is appreciated, not required.
+### As a reference for humans
 
----
-
-## Principles
-
-1. **Every skill must have shipped at least once.** No theoretical playbooks — if I haven't run it, it doesn't get published.
-2. **Optimize for ROI, not volume.** Precision over spray, always.
-3. **Agents are teammates.** Every skill is written so an AI can execute it without hand-holding.
-4. **Open the process.** Methods and data are public; only client/user data is redacted.
+Nothing here is copy-protected. Steal what's useful. A star is appreciated, not required.
 
 ---
 
-## Let's talk
+## Method
 
-- Want a skill I haven't built? [Open an issue](https://github.com/Celina-create/X-Studio/issues/new/choose)
-- Need help on a campaign or want to exchange notes? Email [suokata@naver.com](mailto:suokata@naver.com)
-- Find it useful? A star tells me to keep sharing.
+Four principles that gate what gets published here.
+
+1. **Has shipped at least once.** No theoretical playbooks. If it hasn't been run on a real campaign, it doesn't make it in.
+2. **ROI over volume.** Every skill optimizes for precision. The bottom 50% of any "list" is usually noise — we cut it before any message is sent.
+3. **Agents are operators.** Every skill is structured so a coding agent can execute the full chain. Hand-off points are explicit. State is explicit.
+4. **Method over mystique.** Public method, public reasoning, public limits. Only client / user data is redacted.
+
+---
+
+## Status
+
+| | Today |
+|---|---|
+| **Skills shipped** | 8 |
+| **Playbooks** | 1 (composable competitive-seed pipeline) |
+| **Case studies** | 0 (first one in flight) |
+| **License** | MIT |
+
+This repository updates as work happens — small commits, frequent additions. Watch the repo for new skills as they land.
+
+---
+
+## Maintainer
+
+Built by **Celina** ([`@Celina-create`](https://github.com/Celina-create)) — a growth operator who treats outreach, content, and seeding as engineerable systems rather than vibes.
+
+For collaboration, custom skill requests, or notes exchange:
+
+- 📩 [`suokata@naver.com`](mailto:suokata@naver.com)
+- 🐛 [Open an issue](https://github.com/Celina-create/X-Studio/issues/new/choose)
 
 ---
 
 ## License
 
-MIT © 2026 Celina
+MIT © 2026 Celina. Use, fork, remix, attribute when convenient.
 
 ---
 
