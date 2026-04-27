@@ -13,6 +13,7 @@ Atomic, agent-executable skills. Each skill is a single folder containing a `SKI
 | [landing-to-issue-funnel](./landing-to-issue-funnel) | Turn a cold email into a pre-filled GitHub Issue capture loop | v0.1 · testing |
 | [content-repurpose-engine](./content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks | v0.1 · in use |
 | [growth-experiment-template](./growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule | v0.1 · in use |
+| [reddit-account-warmup](./reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks | v0.1 · in use |
 
 ## SKILL.md format
 

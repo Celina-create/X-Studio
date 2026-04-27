@@ -44,6 +44,7 @@ The job keeps changing — outreach moves from email to Twitter DM to GitHub iss
 | [`landing-to-issue-funnel`](./skills/landing-to-issue-funnel) | Turn a cold email into a pre-filled GitHub Issue / form capture loop |
 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks |
 | [`growth-experiment-template`](./skills/growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule |
+| [`reddit-account-warmup`](./skills/reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks |
 
 ---
 
