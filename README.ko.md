@@ -16,6 +16,7 @@
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
   <img src="https://img.shields.io/badge/playbooks-1-black?style=flat-square" alt="Playbooks">
+  <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
 </p>
 
 ---
@@ -38,6 +39,7 @@
 |---|---|
 | [`skills/`](./skills) | 원자 단위, 에이전트가 실행 가능한 그로스 작업 — Cursor / Claude Code / Codex 에 마운트 |
 | [`playbooks/`](./playbooks) | 내러티브 SOP — 여러 스킬이 어떻게 하나의 캠페인으로 합쳐지는지 |
+| [`research/`](./research) | 현장 보고서 및 생태계 스냅샷 — 저널리즘이 아닌 운영자의 해석 |
 | [`templates/`](./templates) | 즉시 사용 가능한 자산 — 콜드 메일, 랜딩 페이지, 이슈 폼 |
 | [`case-studies/`](./case-studies) | 실제 캠페인 — 방법, 데이터, 무엇이 효과 있었고 무엇이 아니었는지 |
 
@@ -104,6 +106,7 @@ X-Studio 에 들어올 자격을 결정하는 네 가지 원칙.
 |---|---|
 | **출시된 스킬** | 8 |
 | **플레이북** | 1 (조립 가능한 "경쟁사 → 시드" 파이프라인) |
+| **리서치 리포트** | 1 ([Feishu × OpenClaw 생태계 스냅샷](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
 | **케이스 스터디** | 0 (첫 번째 작업 중) |
 | **라이선스** | MIT |
 

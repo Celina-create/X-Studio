@@ -16,6 +16,7 @@
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
   <img src="https://img.shields.io/badge/playbooks-1-black?style=flat-square" alt="Playbooks">
+  <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
 </p>
 
 ---
@@ -38,6 +39,7 @@ This isn't a course. It isn't a blog. It's a **bench** — the place where the w
 |---|---|
 | [`skills/`](./skills) | Atomic, agent-executable units of growth work — drop into Cursor / Claude Code / Codex |
 | [`playbooks/`](./playbooks) | Narrative SOPs — how multiple skills compose into a real campaign |
+| [`research/`](./research) | Field reports and ecosystem snapshots — operator interpretation, not journalism |
 | [`templates/`](./templates) | Copy-paste assets — cold emails, landing pages, issue forms |
 | [`case-studies/`](./case-studies) | Real campaigns — methods, data, what worked, what didn't |
 
@@ -104,6 +106,7 @@ Four principles that gate what gets published here.
 |---|---|
 | **Skills shipped** | 8 |
 | **Playbooks** | 1 (composable competitive-seed pipeline) |
+| **Research reports** | 1 ([Feishu × OpenClaw ecosystem snapshot](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
 | **Case studies** | 0 (first one in flight) |
 | **License** | MIT |
 
