@@ -15,7 +15,7 @@
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
-  <img src="https://img.shields.io/badge/playbooks-1-black?style=flat-square" alt="Playbooks">
+  <img src="https://img.shields.io/badge/playbooks-5-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
 </p>
 
@@ -105,7 +105,7 @@ X-Studio 에 들어올 자격을 결정하는 네 가지 원칙.
 | | 오늘 |
 |---|---|
 | **출시된 스킬** | 8 |
-| **플레이북** | 1 (조립 가능한 "경쟁사 → 시드" 파이프라인) |
+| **플레이북** | 5 (1 그로스 + 4-piece [오픈소스 DevRel 시스템](./playbooks/open-source-devrel/)) |
 | **리서치 리포트** | 1 ([Feishu × OpenClaw 생태계 스냅샷](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
 | **케이스 스터디** | 0 (첫 번째 작업 중) |
 | **라이선스** | MIT |

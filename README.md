@@ -15,7 +15,7 @@
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
-  <img src="https://img.shields.io/badge/playbooks-1-black?style=flat-square" alt="Playbooks">
+  <img src="https://img.shields.io/badge/playbooks-5-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
 </p>
 
@@ -105,7 +105,7 @@ Four principles that gate what gets published here.
 | | Today |
 |---|---|
 | **Skills shipped** | 8 |
-| **Playbooks** | 1 (composable competitive-seed pipeline) |
+| **Playbooks** | 5 (1 acquisition + 4-piece [open-source DevRel system](./playbooks/open-source-devrel/)) |
 | **Research reports** | 1 ([Feishu × OpenClaw ecosystem snapshot](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
 | **Case studies** | 0 (first one in flight) |
 | **License** | MIT |

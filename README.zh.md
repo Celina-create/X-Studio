@@ -15,7 +15,7 @@
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
-  <img src="https://img.shields.io/badge/playbooks-1-black?style=flat-square" alt="Playbooks">
+  <img src="https://img.shields.io/badge/playbooks-5-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
 </p>
 
@@ -105,7 +105,7 @@ ln -s ~/x-studio/skills/competitive-intel-mining ~/.cursor/skills/competitive-in
 | | 现在 |
 |---|---|
 | **已发布 skill** | 8 |
-| **Playbook** | 1（可组合的 "竞品 → 种子" 管线） |
+| **Playbook** | 5（1 篇增长 + 4 篇 [开源 DevRel 体系](./playbooks/open-source-devrel/)） |
 | **调研报告** | 1（[飞书 × OpenClaw 生态快照](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)） |
 | **Case study** | 0（第一篇制作中） |
 | **License** | MIT |
