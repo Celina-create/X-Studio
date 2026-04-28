@@ -8,6 +8,8 @@ Atomic, agent-executable skills. Each skill is a single folder containing a `SKI
 |---|---|---|
 | [stargazer-email-scraper](./stargazer-email-scraper) | Extract public emails of competitor-repo stargazers (15–17% hit rate) | v0.1 · in use |
 | [competitive-intel-mining](./competitive-intel-mining) | Mine competitor communities for high-intent users | v0.1 · in use |
+| [competitive-analysis](./competitive-analysis) | Competitor / category deep dive — growth + SEO + strategic implications | v0.1 · in use |
+| [competitor-deep-research-sop](./competitor-deep-research-sop) | **SOP v1.3.1** — pain-first research, 12-layer evidence, M1×M2, Tier-1 seeds + monitoring | v0.1 · in use |
 | [seed-user-pool-stratification](./seed-user-pool-stratification) | Score and segment seed users by ROI before spending a single message | v0.1 · in use |
 | [personalized-cold-outreach](./personalized-cold-outreach) | 1-to-1 personalized outreach at batch scale | v0.1 · in use |
 | [landing-to-issue-funnel](./landing-to-issue-funnel) | Turn a cold email into a pre-filled GitHub Issue capture loop | v0.1 · testing |

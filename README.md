@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/skills-10-black?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/skills-11-black?style=flat-square" alt="Skills">
   <img src="https://img.shields.io/badge/playbooks-6-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
   <img src="https://img.shields.io/badge/case--studies-1-black?style=flat-square" alt="Case Studies">
@@ -46,22 +46,23 @@ This isn't a course. It isn't a blog. It's a **bench** — the place where the w
 
 ---
 
-## Skills (v0.1 — 10 in use)
+## Skills (v0.1 — 11 in use)
 
-Ten atomic skills currently shipped. Each has been used in a live campaign before being written down.
+Eleven atomic skills currently shipped. Each has been used in a live campaign before being written down.
 
 | # | Skill | What it does |
 |---|---|---|
 | 1 | [`stargazer-email-scraper`](./skills/stargazer-email-scraper) | Extract public emails of competitor-repo stargazers — 15–17% hit rate |
 | 2 | [`competitive-intel-mining`](./skills/competitive-intel-mining) | Mine competitor communities (GitHub / Discord / Reddit) for high-intent users |
 | 3 | [`competitive-analysis`](./skills/competitive-analysis) | Deep-dive a competitor / category — growth signals, community pulse, GitHub bursts, SEO + strategic implications |
-| 4 | [`seed-user-pool-stratification`](./skills/seed-user-pool-stratification) | Score and segment seed users by ROI before spending a single message |
-| 5 | [`personalized-cold-outreach`](./skills/personalized-cold-outreach) | 1-to-1 personalized outreach at batch scale — first three sentences must be true *only* for that recipient |
-| 6 | [`landing-to-issue-funnel`](./skills/landing-to-issue-funnel) | Turn a cold email into a pre-filled GitHub Issue capture loop |
-| 7 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks |
-| 8 | [`growth-experiment-template`](./skills/growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule, retro |
-| 9 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks |
-| 10 | [`community-content-bot`](./skills/community-content-bot) | Bilingual daily content push to Feishu + Discord on GitHub Actions — 60-min ship, sub-$10/mo cost |
+| 4 | [`competitor-deep-research-sop`](./skills/competitor-deep-research-sop) | **SOP v1.3.1** — user-pain first research: M1×M2 matrix, 14 dimensions, 12-layer evidence + sub-channels, S1–S3 seed signals, Tier-1 list, monitoring; ships with full 930-line methodology reference |
+| 5 | [`seed-user-pool-stratification`](./skills/seed-user-pool-stratification) | Score and segment seed users by ROI before spending a single message |
+| 6 | [`personalized-cold-outreach`](./skills/personalized-cold-outreach) | 1-to-1 personalized outreach at batch scale — first three sentences must be true *only* for that recipient |
+| 7 | [`landing-to-issue-funnel`](./skills/landing-to-issue-funnel) | Turn a cold email into a pre-filled GitHub Issue capture loop |
+| 8 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks |
+| 9 | [`growth-experiment-template`](./skills/growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule, retro |
+| 10 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks |
+| 11 | [`community-content-bot`](./skills/community-content-bot) | Bilingual daily content push to Feishu + Discord on GitHub Actions — 60-min ship, sub-$10/mo cost |
 
 **Roadmap teaser** — `linkedin-content-warmup`, `x-account-warmup`, `discord-community-seeding`, `outbound-followup-sequencer` (each will land when shipped at least once).
 
@@ -107,7 +108,7 @@ Four principles that gate what gets published here.
 
 | | Today |
 |---|---|
-| **Skills shipped** | 10 |
+| **Skills shipped** | 11 |
 | **Playbooks** | 6 (1 acquisition + 1 community + 4-piece [open-source DevRel system](./playbooks/open-source-devrel/)) |
 | **Research reports** | 1 ([Feishu × OpenClaw ecosystem snapshot](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
 | **Case studies** | 1 ([Bilingual content bot post-mortem](./case-studies/01-content-bot-postmortem.md)) |

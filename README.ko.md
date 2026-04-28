@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/skills-10-black?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/skills-11-black?style=flat-square" alt="Skills">
   <img src="https://img.shields.io/badge/playbooks-6-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
   <img src="https://img.shields.io/badge/case--studies-1-black?style=flat-square" alt="Case Studies">
@@ -46,7 +46,7 @@
 
 ---
 
-## 스킬 목록 (v0.1 · 현재 10 개)
+## 스킬 목록 (v0.1 · 현재 11 개)
 
 각 스킬은 실제 캠페인에서 한 번 이상 사용된 뒤에 저장소에 들어옵니다.
 
@@ -55,13 +55,14 @@
 | 1 | [`stargazer-email-scraper`](./skills/stargazer-email-scraper) | **경쟁사 GitHub 저장소 스타거저** 의 공개 이메일 추출 (적중률 15–17%) |
 | 2 | [`competitive-intel-mining`](./skills/competitive-intel-mining) | **경쟁사 공개 커뮤니티** (GitHub / Discord / Reddit) 에서 페인을 호소하는 고의도 사용자 발굴 |
 | 3 | [`competitive-analysis`](./skills/competitive-analysis) | **단일 경쟁사 / 카테고리** 의 깊은 횡단 분석 — 성장 신호, 커뮤니티 맥, GitHub 폭발 지점, SEO 와 전략적 함의 |
-| 4 | [`seed-user-pool-stratification`](./skills/seed-user-pool-stratification) | 시드 유저 풀을 **ROI 기준으로 계층화** — 누구에게 먼저 보내고 누구에게 마지막에 보낼지 결정 |
-| 5 | [`personalized-cold-outreach`](./skills/personalized-cold-outreach) | 시드 CSV 를 받아 **1:1 개인화 콜드 메일을 배치 생성** — 첫 세 문장이 그 사용자에게만 참이어야 함 |
-| 6 | [`landing-to-issue-funnel`](./skills/landing-to-issue-funnel) | **콜드 메일 → 랜딩 페이지 → 사전 입력된 GitHub Issue** 의 캡처 퍼널 구성 — 모든 피드백이 공개 자산이 됨 |
-| 7 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | 하나의 인사이트 → **이중언어 스레드 / 장문 / 비디오 훅** 동시 출력 |
-| 8 | [`growth-experiment-template`](./skills/growth-experiment-template) | 구조화된 **그로스 실험 문서 템플릿** — 가설, 지표, 결정 규칙, 회고 |
-| 9 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | **Reddit 계정 6 주 워밍업 SOP** — 60 초 사전 점검 리스트, 카르마 상승 공식, 삭제 복구 SOP |
-| 10 | [`community-content-bot`](./skills/community-content-bot) | **Feishu + Discord 이중언어 일일 콘텐츠 봇** — GitHub Actions 위에서 동작, 60 분 배포, 월 $10 미만 |
+| 4 | [`competitor-deep-research-sop`](./skills/competitor-deep-research-sop) | **SOP v1.3.1** 사용자 페인 우선 리서치 — M1×M2 매트릭스, 14 차원, 12 계층 증거+하위 채널, S1–S3 시드 신호, Tier 1 리스트·모니터링; **930 줄 방법론** 포함 |
+| 5 | [`seed-user-pool-stratification`](./skills/seed-user-pool-stratification) | 시드 유저 풀을 **ROI 기준으로 계층화** — 누구에게 먼저 보내고 누구에게 마지막에 보낼지 결정 |
+| 6 | [`personalized-cold-outreach`](./skills/personalized-cold-outreach) | 시드 CSV 를 받아 **1:1 개인화 콜드 메일을 배치 생성** — 첫 세 문장이 그 사용자에게만 참이어야 함 |
+| 7 | [`landing-to-issue-funnel`](./skills/landing-to-issue-funnel) | **콜드 메일 → 랜딩 페이지 → 사전 입력된 GitHub Issue** 의 캡처 퍼널 구성 — 모든 피드백이 공개 자산이 됨 |
+| 8 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | 하나의 인사이트 → **이중언어 스레드 / 장문 / 비디오 훅** 동시 출력 |
+| 9 | [`growth-experiment-template`](./skills/growth-experiment-template) | 구조화된 **그로스 실험 문서 템플릿** — 가설, 지표, 결정 규칙, 회고 |
+| 10 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | **Reddit 계정 6 주 워밍업 SOP** — 60 초 사전 점검 리스트, 카르마 상승 공식, 삭제 복구 SOP |
+| 11 | [`community-content-bot`](./skills/community-content-bot) | **Feishu + Discord 이중언어 일일 콘텐츠 봇** — GitHub Actions 위에서 동작, 60 분 배포, 월 $10 미만 |
 
 **로드맵 예고**: `linkedin-content-warmup`, `x-account-warmup`, `discord-community-seeding`, `outbound-followup-sequencer` — 실제로 한 번 돌려본 뒤에 추가됩니다.
 
@@ -107,7 +108,7 @@ X-Studio 에 들어올 자격을 결정하는 네 가지 원칙.
 
 | | 오늘 |
 |---|---|
-| **출시된 스킬** | 10 |
+| **출시된 스킬** | 11 |
 | **플레이북** | 6 (1 그로스 + 1 커뮤니티 + 4-piece [오픈소스 DevRel 시스템](./playbooks/open-source-devrel/)) |
 | **리서치 리포트** | 1 ([Feishu × OpenClaw 생태계 스냅샷](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
 | **케이스 스터디** | 1 ([이중언어 콘텐츠 봇 회고](./case-studies/01-content-bot-postmortem.md)) |
