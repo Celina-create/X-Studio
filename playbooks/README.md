@@ -7,6 +7,7 @@ Narrative SOPs — end-to-end, human-readable walkthroughs of how a full campaig
 | # | Playbook | Status |
 |---|---|---|
 | 00 | [Competitive seed pipeline](./00-competitive-seed-pipeline.md) | draft |
+| 02 | [Daily community content push (Feishu × Discord, bilingual)](./02-daily-community-push.md) | shipped — paired with [case study #01](../case-studies/01-content-bot-postmortem.md) |
 | 📚 | [**Open-Source DevRel** — 4-piece operating system](./open-source-devrel/) | shipped |
 
 ## Open-Source DevRel collection

@@ -1,57 +1,52 @@
-# Case studies
+# Case Studies
 
-Real campaigns with data. No theoretical success stories; no redacted-to-uselessness retrospectives.
+Honest write-ups of growth-ops projects I've built — what shipped, what
+worked, what didn't, and what I'd do differently.
 
-## Format
+## What goes here
 
-Each case study follows:
+- **Post-mortems** of specific deployments (worked or didn't)
+- **Experiment reports** with measurable outcomes
+- **Decision retrospectives** explaining trade-offs in real context
+- **Anti-pattern call-outs** documenting failures that taught more than
+  successes would have
 
-```markdown
-# <Campaign name>
+## What does NOT go here
 
-**Date range**: YYYY-MM to YYYY-MM
-**Product stage**: pre-launch / seed / growth
-**Channel**: <email / X / GitHub / etc>
-**Budget**: $X (or time-only)
+- Generic frameworks → see [`playbooks/`](../playbooks/)
+- Reusable code → see [`skills/`](../skills/)
+- Market intelligence → see [`research/`](../research/)
+- Promotional case studies (these are honest internal-grade docs, not
+  marketing)
 
-## Context
+## Why these exist
 
-What we were trying to do and why.
+Most public "growth content" optimizes for shareability over honesty. The
+case studies here optimize for **future-me** and **anyone facing a
+similar decision** — which means they include:
 
-## What we ran
+- The hypothesis, including its weak parts
+- The numbers, even when they're disappointing
+- The pause / kill criteria (set in advance when possible)
+- The strategic framing in retrospect
+- The artifacts that survived (code / playbooks reused elsewhere)
 
-Step-by-step. Link to skills / templates / playbooks used.
+If a write-up here makes me look smart in retrospect, it's because the
+project failed in an interesting way. The successful ones are usually
+boring — they're already in [`skills/`](../skills/) and
+[`playbooks/`](../playbooks/) without commentary.
 
-## Numbers
+## Index
 
-- Key metric 1: X → Y
-- Key metric 2: X → Y
-- Reply / conversion rates
+| # | Title | Type | Duration | Status |
+|---|---|---|---|---|
+| 01 | [Bilingual content bot for a developer community](./01-content-bot-postmortem.md) | Post-mortem | 3 weeks live | Paused (artifacts kept) |
 
-## What worked
+---
 
-3–5 specific things that drove the result.
+More to come as projects ship and lessons accumulate.
 
-## What didn't
+## Related
 
-3–5 specific things that failed. This is the most valuable section.
-
-## Three-line summary
-
-For anyone who won't read the full thing.
-
-## What I'd do differently
-
-1–3 concrete changes next time.
-```
-
-## Published
-
-(TBD — first case study publishes once current campaigns conclude.)
-
-## Redaction policy
-
-- Company names redacted to category labels (`<fintech SaaS, seed stage>`) unless consent is explicit
-- Individual handles never published
-- Dollar figures rounded to nearest order of magnitude
-- Internal metrics disclosed; client-privileged metrics redacted
+- [Skills](../skills/) — the reusable artifacts referenced from these case studies
+- [Playbooks](../playbooks/) — the SOPs that codify what worked

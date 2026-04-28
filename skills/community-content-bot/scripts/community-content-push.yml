@@ -1,0 +1,70 @@
+name: Community Content Push
+
+# Bilingual daily content bot for developer communities.
+# Pushes themed cards to Feishu (Chinese) + Discord (English) on schedule.
+# All cron times in UTC. Beijing = UTC + 8.
+
+on:
+  schedule:
+    - cron: "0 1 * * 1-5"   # Tech News        - Weekday Beijing 09:00
+    - cron: "0 4 * * 1-5"   # Tech Ecosystem   - Weekday Beijing 12:00
+    - cron: "0 12 * * 1-5"  # AI Products      - Weekday Beijing 20:00
+    - cron: "0 10 * * 5"    # Weekly Digest    - Friday  Beijing 18:00
+    - cron: "0 2 * * 0,6"   # Weekend Pick     - Weekend Beijing 10:00
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: "Content theme to push"
+        required: true
+        type: choice
+        options:
+          - tech-news
+          - tech-eco
+          - ai-products
+          - weekly
+          - weekend
+
+permissions:
+  contents: read
+
+jobs:
+  push:
+    name: Generate and Push Content
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/notify
+
+      - name: Resolve content theme
+        id: theme
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "theme=${{ inputs.theme }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 1 * * 1-5")   echo "theme=tech-news" >> "$GITHUB_OUTPUT" ;;
+              "0 4 * * 1-5")   echo "theme=tech-eco" >> "$GITHUB_OUTPUT" ;;
+              "0 12 * * 1-5")  echo "theme=ai-products" >> "$GITHUB_OUTPUT" ;;
+              "0 10 * * 5")    echo "theme=weekly" >> "$GITHUB_OUTPUT" ;;
+              "0 2 * * 0,6")   echo "theme=weekend" >> "$GITHUB_OUTPUT" ;;
+            esac
+          fi
+
+      - name: Generate and send content
+        env:
+          CONTENT_THEME: ${{ steps.theme.outputs.theme }}
+          # Comma-separate webhook URLs for multi-group fan-out:
+          # FEISHU_WEBHOOK_URL: "https://...hook/aaa,https://...hook/bbb"
+          FEISHU_WEBHOOK_URL: ${{ secrets.COMMUNITY_CONTENT_FEISHU_WEBHOOK }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.COMMUNITY_CONTENT_DISCORD_WEBHOOK }}
+          LLM_API_BASE: ${{ secrets.LITELLM_ENDPOINT }}
+          LLM_API_KEY: ${{ secrets.LITELLM_API_KEY }}
+          LLM_MODEL: anthropic/claude-sonnet-4
+          # Brand customization (override defaults in the script):
+          PROJECT_NAME: ${{ vars.PROJECT_NAME }}
+          PROJECT_REPO: ${{ vars.PROJECT_REPO }}
+          DOCS_BASE_URL: ${{ vars.DOCS_BASE_URL }}
+          PROJECT_AVATAR: ${{ vars.PROJECT_AVATAR }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/notify/daily-content-bot.mjs

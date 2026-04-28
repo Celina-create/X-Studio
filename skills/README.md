@@ -14,6 +14,7 @@ Atomic, agent-executable skills. Each skill is a single folder containing a `SKI
 | [content-repurpose-engine](./content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks | v0.1 · in use |
 | [growth-experiment-template](./growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule | v0.1 · in use |
 | [reddit-account-warmup](./reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks | v0.1 · in use |
+| [community-content-bot](./community-content-bot) | Bilingual daily content push to Feishu + Discord — 60-min ship, $5/mo cost | v0.1 · paused (see [case study](../case-studies/01-content-bot-postmortem.md)) |
 
 ## SKILL.md format
 

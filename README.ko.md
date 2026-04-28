@@ -14,9 +14,10 @@
 <p align="center">
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
-  <img src="https://img.shields.io/badge/playbooks-5-black?style=flat-square" alt="Playbooks">
+  <img src="https://img.shields.io/badge/skills-9-black?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/playbooks-6-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
+  <img src="https://img.shields.io/badge/case--studies-1-black?style=flat-square" alt="Case Studies">
 </p>
 
 ---
@@ -45,7 +46,7 @@
 
 ---
 
-## 스킬 목록 (v0.1 · 현재 8 개)
+## 스킬 목록 (v0.1 · 현재 9 개)
 
 각 스킬은 실제 캠페인에서 한 번 이상 사용된 뒤에 저장소에 들어옵니다.
 
@@ -59,6 +60,7 @@
 | 6 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | 하나의 인사이트 → **이중언어 스레드 / 장문 / 비디오 훅** 동시 출력 |
 | 7 | [`growth-experiment-template`](./skills/growth-experiment-template) | 구조화된 **그로스 실험 문서 템플릿** — 가설, 지표, 결정 규칙, 회고 |
 | 8 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | **Reddit 계정 6 주 워밍업 SOP** — 60 초 사전 점검 리스트, 카르마 상승 공식, 삭제 복구 SOP |
+| 9 | [`community-content-bot`](./skills/community-content-bot) | **Feishu + Discord 이중언어 일일 콘텐츠 봇** — GitHub Actions 위에서 동작, 60 분 배포, 월 $10 미만 |
 
 **로드맵 예고**: `linkedin-content-warmup`, `x-account-warmup`, `discord-community-seeding`, `outbound-followup-sequencer` — 실제로 한 번 돌려본 뒤에 추가됩니다.
 
@@ -104,10 +106,10 @@ X-Studio 에 들어올 자격을 결정하는 네 가지 원칙.
 
 | | 오늘 |
 |---|---|
-| **출시된 스킬** | 8 |
-| **플레이북** | 5 (1 그로스 + 4-piece [오픈소스 DevRel 시스템](./playbooks/open-source-devrel/)) |
+| **출시된 스킬** | 9 |
+| **플레이북** | 6 (1 그로스 + 1 커뮤니티 + 4-piece [오픈소스 DevRel 시스템](./playbooks/open-source-devrel/)) |
 | **리서치 리포트** | 1 ([Feishu × OpenClaw 생태계 스냅샷](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
-| **케이스 스터디** | 0 (첫 번째 작업 중) |
+| **케이스 스터디** | 1 ([이중언어 콘텐츠 봇 회고](./case-studies/01-content-bot-postmortem.md)) |
 | **라이선스** | MIT |
 
 저장소는 작은 단위로 자주 업데이트됩니다 — 새 스킬은 검증되는 즉시 올라옵니다. **Watch** 해두면 가장 먼저 알 수 있습니다.

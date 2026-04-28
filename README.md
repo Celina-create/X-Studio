@@ -14,9 +14,10 @@
 <p align="center">
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/skills-8-black?style=flat-square" alt="Skills">
-  <img src="https://img.shields.io/badge/playbooks-5-black?style=flat-square" alt="Playbooks">
+  <img src="https://img.shields.io/badge/skills-9-black?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/playbooks-6-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
+  <img src="https://img.shields.io/badge/case--studies-1-black?style=flat-square" alt="Case Studies">
 </p>
 
 ---
@@ -45,9 +46,9 @@ This isn't a course. It isn't a blog. It's a **bench** — the place where the w
 
 ---
 
-## Skills (v0.1 — 8 in use)
+## Skills (v0.1 — 9 in use)
 
-Eight atomic skills currently shipped. Each has been used in a live campaign before being written down.
+Nine atomic skills currently shipped. Each has been used in a live campaign before being written down.
 
 | # | Skill | What it does |
 |---|---|---|
@@ -59,6 +60,7 @@ Eight atomic skills currently shipped. Each has been used in a live campaign bef
 | 6 | [`content-repurpose-engine`](./skills/content-repurpose-engine) | One insight → bilingual threads, long-form, video hooks |
 | 7 | [`growth-experiment-template`](./skills/growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule, retro |
 | 8 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks |
+| 9 | [`community-content-bot`](./skills/community-content-bot) | Bilingual daily content push to Feishu + Discord on GitHub Actions — 60-min ship, sub-$10/mo cost |
 
 **Roadmap teaser** — `linkedin-content-warmup`, `x-account-warmup`, `discord-community-seeding`, `outbound-followup-sequencer` (each will land when shipped at least once).
 
@@ -104,10 +106,10 @@ Four principles that gate what gets published here.
 
 | | Today |
 |---|---|
-| **Skills shipped** | 8 |
-| **Playbooks** | 5 (1 acquisition + 4-piece [open-source DevRel system](./playbooks/open-source-devrel/)) |
+| **Skills shipped** | 9 |
+| **Playbooks** | 6 (1 acquisition + 1 community + 4-piece [open-source DevRel system](./playbooks/open-source-devrel/)) |
 | **Research reports** | 1 ([Feishu × OpenClaw ecosystem snapshot](./research/2026-03-feishu-openclaw-ecosystem-snapshot.md)) |
-| **Case studies** | 0 (first one in flight) |
+| **Case studies** | 1 ([Bilingual content bot post-mortem](./case-studies/01-content-bot-postmortem.md)) |
 | **License** | MIT |
 
 This repository updates as work happens — small commits, frequent additions. Watch the repo for new skills as they land.
