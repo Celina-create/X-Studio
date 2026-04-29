@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/skills-11-black?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/skills-12-black?style=flat-square" alt="Skills">
   <img src="https://img.shields.io/badge/playbooks-6-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
   <img src="https://img.shields.io/badge/case--studies-1-black?style=flat-square" alt="Case Studies">

@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://github.com/Celina-create/X-Studio/stargazers"><img src="https://img.shields.io/github/stars/Celina-create/X-Studio?style=flat-square&logo=github&label=stars&color=181717" alt="Stars"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/skills-11-black?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/skills-12-black?style=flat-square" alt="Skills">
   <img src="https://img.shields.io/badge/playbooks-6-black?style=flat-square" alt="Playbooks">
   <img src="https://img.shields.io/badge/research-1-black?style=flat-square" alt="Research">
   <img src="https://img.shields.io/badge/case--studies-1-black?style=flat-square" alt="Case Studies">
@@ -46,9 +46,9 @@ This isn't a course. It isn't a blog. It's a **bench** — the place where the w
 
 ---
 
-## Skills (v0.1 — 11 in use)
+## Skills (v0.1 — 12 in use)
 
-Eleven atomic skills currently shipped. Each has been used in a live campaign before being written down.
+Twelve atomic skills currently shipped. Each has been used in a live campaign before being written down.
 
 | # | Skill | What it does |
 |---|---|---|
@@ -63,6 +63,7 @@ Eleven atomic skills currently shipped. Each has been used in a live campaign be
 | 9 | [`growth-experiment-template`](./skills/growth-experiment-template) | Structured experiment doc — hypothesis, metric, decision rule, retro |
 | 10 | [`reddit-account-warmup`](./skills/reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks |
 | 11 | [`community-content-bot`](./skills/community-content-bot) | Bilingual daily content push to Feishu + Discord on GitHub Actions — 60-min ship, sub-$10/mo cost |
+| 12 | [`ai-agent-sdd`](./skills/ai-agent-sdd) | Write a professional Software Design Document (SDD) for an AI agent before vibe-coding — MVP (12 sec) and Full (23 sec) templates, AI-specific sections (LLM strategy / agent workflow / eval framework / failure modes) |
 
 **Roadmap teaser** — `linkedin-content-warmup`, `x-account-warmup`, `discord-community-seeding`, `outbound-followup-sequencer` (each will land when shipped at least once).
 

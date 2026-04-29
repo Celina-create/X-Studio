@@ -2,7 +2,7 @@
 
 Atomic, agent-executable skills. Each skill is a single folder containing a `SKILL.md` that any AI coding agent (Cursor, Claude Code, Codex, Gemini CLI) can follow end-to-end.
 
-**Total: 11 skills.** All have shipped at least once before being written down.
+**Total: 12 skills.** All have shipped at least once before being written down.
 
 ---
 
@@ -28,6 +28,7 @@ Atomic, agent-executable skills. Each skill is a single folder containing a `SKI
 | | [`community-content-bot`](./community-content-bot) | Bilingual daily content push to Feishu (ZH) + Discord (EN) — 60-min ship, sub-$10/mo | paused (see [case study](../case-studies/01-content-bot-postmortem.md)) |
 | | [`reddit-account-warmup`](./reddit-account-warmup) | Warm a fresh Reddit account into a stable, low-risk identity in 6 weeks | in use |
 | **5. Measure** | [`growth-experiment-template`](./growth-experiment-template) | Force every experiment into a standard doc shape — hypothesis, metric, decision rule, retro | in use |
+| **6. Build (AI products)** | [`ai-agent-sdd`](./ai-agent-sdd) ⭐ | Write a professional SDD for an AI agent before vibe-coding — MVP (12 sec) and Full (23 sec) templates with AI-specific sections | in use |
 
 ---
 
@@ -35,11 +36,11 @@ Atomic, agent-executable skills. Each skill is a single folder containing a `SKI
 
 | Layer | Meaning | Skills |
 |-------|---------|--------|
-| **L0 · Methodology / Meta** | Teaches the agent **how to think** | [`competitor-deep-research-sop`](./competitor-deep-research-sop) |
+| **L0 · Methodology / Meta** | Teaches the agent **how to think** | [`competitor-deep-research-sop`](./competitor-deep-research-sop) · [`ai-agent-sdd`](./ai-agent-sdd) |
 | **L1 · Strategic framework** | Synthesizes information into decisions | [`competitive-analysis`](./competitive-analysis) · [`seed-user-pool-stratification`](./seed-user-pool-stratification) · [`growth-experiment-template`](./growth-experiment-template) |
 | **L2 · Executable tool** | Gets a concrete action done | [`competitive-intel-mining`](./competitive-intel-mining) · [`stargazer-email-scraper`](./stargazer-email-scraper) · [`personalized-cold-outreach`](./personalized-cold-outreach) · [`landing-to-issue-funnel`](./landing-to-issue-funnel) · [`content-repurpose-engine`](./content-repurpose-engine) · [`community-content-bot`](./community-content-bot) · [`reddit-account-warmup`](./reddit-account-warmup) |
 
-> **1 meta · 3 strategic · 7 executable** — current weight is on shipping atoms; meta and strategic layers will grow as more campaigns retro into reusable patterns.
+> **2 meta · 3 strategic · 7 executable** — meta layer now includes both *research* (competitor SOP) and *build* (AI agent SDD), reflecting that both research and shipping benefit from explicit method.
 
 ---
 
